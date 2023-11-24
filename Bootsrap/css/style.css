@@ -1,0 +1,43 @@
+.container {
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+body {
+
+    background-color: hsl(233, 47%, 7%);
+}
+
+.child {
+
+    background-color: hsl(244, 38%, 16%);
+    padding: 50px;
+    border: 1px solid red;
+
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+.text {
+    padding-right: 50px;
+}
+
+img {
+
+
+
+
+    background-color: violet;
+
+    opacity: 0.5;
+}
