@@ -1,28 +1,28 @@
-.container {
-    position: fixed;
-
-    top: 0;
-
-    left: 0;
-
-    width: 100%;
-
-    height: 100%;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.container {}
 
 body {
 
     background-color: hsl(233, 47%, 7%);
+
 }
 
 .child {
 
     background-color: hsl(244, 38%, 16%);
     padding: 50px;
-    border: 1px solid red;
+
+
+
 
 }
+
+
 
 span {
     color: hsl(277, 64%, 61%);
@@ -32,12 +32,27 @@ span {
     padding-right: 50px;
 }
 
-img {
+
+.image div {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 0.4;
+    filter: contrast(1.8);
+    border-radius: 0rem .3rem .3rem 0rem
+}
+
+.image {
+    position: relative;
 
 
+    background-size: cover;
 
+}
 
-    background-color: violet;
-
-    opacity: 0.5;
+.footer {
+    margin-top: 1rem;
+    font-size: .8rem;
 }
